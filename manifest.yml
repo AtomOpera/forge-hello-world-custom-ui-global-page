@@ -1,7 +1,8 @@
 modules:
   jira:globalPage:
     - key: hello-world-custom-ui-global-page
-      # function: global # function for UI kit, resource for Custom UI
+      # function for UI kit, resource for Custom UI
+      # function: global 
       resource: global
       resolver:
         function: resolver
